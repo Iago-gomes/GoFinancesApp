@@ -64,7 +64,8 @@ font-size: ${RFValue(18)}px;
 font-family: ${({ theme }) => theme.fonts.bold};
 `;
 
-export const LogoutButton = styled(BorderlessButton)``;
+export const LogoutButton =
+ styled(BorderlessButton as new(props: any) => BorderlessButton)``;
 
 export const Icon = styled(Feather)`
   font-size: ${RFValue(20)}px;

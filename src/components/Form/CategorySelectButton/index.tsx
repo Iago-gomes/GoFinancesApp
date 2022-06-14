@@ -4,7 +4,6 @@ import {
     Container,
     Category,
     Icon,
-    
  } from './styles';
 
 interface Props {
